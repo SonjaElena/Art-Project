@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.art {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  outline: 5px solid #dfdcda;
+  border: 3px solid #6d390b;
+  border-left: 1px solid #6d390b;
+  border-bottom: 1px solid black;
+  height: 605px;
+  width: 475px;
+}
+
+.white {
+  height: 350px;
+  width: 70px;
+  background-color: #edede9;
+}
+
+.yellow {
+  height: 350px;
+  width: 100px;
+  background-color: #ffba08;
+}
+
+.red {
+  grid-column: 3 / 6;
+  grid-row: 1;
+  height: 350px;
+  width: 300px;
+  background-color: #c1121f;
+}
+
+.blue {
+  grid-column: 1 / 3;
+  grid-row: 2 / 5;
+  background-color: #023e8a;
+  border-right: 0.5px solid black;
+}
+
+.white2 {
+  grid-column: 3 / 6;
+  grid-row: 2;
+  background-color: #edede9;
+  height: 100px;
+}
+
+.grey1 {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: #495057;
+  height: 100px;
+}
+
+.grey2 {
+  grid-column: 5;
+  grid-row: 3;
+  background-color: #adb5bd;
+  height: 100px;
+}
+
+.grey3 {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: #6c757d;
+  height: 100px;
+}
+
+.black {
+  grid-column: 3 / 6;
+  grid-row: 4;
+  background-color: black;
+  height: 50px;
+}
+
+/* Save Art as image */
