@@ -1,7 +1,12 @@
----
-Recreation/Interpretation of De Stijl 1 by Peter Keler (1922)
----
+<!DOCTYPE html>
+<html>
 
-In this project I used display: grid and an blend-mode to recreate the image's structure and texture.
+<body>
 
-![De Stijl 1 - Interpretation](Bild.jpeg = 70x)
+<h3>Recreation/Interpretation of De Stijl 1 by Peter Keler (1922)</h3>
+
+<p>In this project I used display: grid and an image overlay to recreate the image's structure and texture.</p>
+
+<img src="Bild.jpeg" width="50">
+
+</body>
