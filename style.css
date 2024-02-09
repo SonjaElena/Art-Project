@@ -4,12 +4,20 @@
   }
 }
 
+/* Global settings */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
+.container {
+  position: absolute;
+  height: 605px;
+  width: 475px;
+}
+
+/* First image */
 .art {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -82,4 +90,19 @@
   grid-row: 4;
   background-color: black;
   height: 50px;
+}
+
+/* second image */
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Blend both images */
+
+.container img {
+  mix-blend-mode: multiply;
 }
