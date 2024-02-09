@@ -7,6 +7,6 @@
 
 <p>In this project I used display: grid and an image overlay to recreate the image's structure and texture.</p>
 
-<img src="Bild.jpeg" width="50">
+<img src="Bild.jpeg" width="400">
 
 </body>
